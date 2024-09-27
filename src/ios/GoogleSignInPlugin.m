@@ -2,7 +2,7 @@
 
 #import <Cordova/CDV.h>
 
-#import <GoogleSignIn/Sources/Public/GoogleSignIn/GIDSignIn.h>
+#import <GoogleSignIn/Sources/Public/GoogleSignIn/GoogleSignIn.h>
 
 @interface GoogleSignInPlugin : CDVPlugin {
   // Member variables go here.
