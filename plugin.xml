@@ -41,7 +41,6 @@
         </config-file>
         <source-file src="src/ios/GoogleSignInPlugin.m" />
 
-        <preference name="deployment-target" value="12.0" />
         <preference name="REVERSED_CLIENT_ID" />
         <config-file target="*-Info.plist" parent="CFBundleURLTypes">
             <array>
