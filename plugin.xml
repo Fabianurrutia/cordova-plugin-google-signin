@@ -38,10 +38,9 @@
             <feature name="GoogleSignInPlugin">
                 <param name="ios-package" value="GoogleSignInPlugin" />
             </feature>
+            <preference name="deployment-target" value="12.0" />
+            <preference name="target-device" value="universal" />
         </config-file>
-        <!-- Define the deployment target here -->
-        <preference name="deployment-target" value="12.0" />
-        
         <source-file src="src/ios/GoogleSignInPlugin.m" />
 
         <preference name="REVERSED_CLIENT_ID" />
