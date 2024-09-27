@@ -38,8 +38,8 @@
             <feature name="GoogleSignInPlugin">
                 <param name="ios-package" value="GoogleSignInPlugin" />
             </feature>
-            <preference name="deployment-target" value="12.0" />
-            <preference name="target-device" value="universal" />
+            <!-- <preference name="deployment-target" value="12.0" />
+            <preference name="target-device" value="universal" /> -->
         </config-file>
         <source-file src="src/ios/GoogleSignInPlugin.m" />
 
@@ -65,7 +65,7 @@
                 <source url="https://cdn.cocoapods.org/"/>
             </config>
             <pods use-frameworks="true">
-                <pod name="GoogleSignIn" spec="~> 7.0.0" />
+                <pod name="GoogleSignIn" spec="~> 6.2.4" />
             </pods>
         </podspec>
 
